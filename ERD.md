@@ -8,7 +8,7 @@ erDiagram
     PERSON ||--o| STAFF : is_a
     PERSON ||--o| INSTRUCTOR : is_a
 
-    STUDENT }|--|| UNICOURSES : enrolledin
+    STUDENT }|--o{ UNICOURSES : enrolledin
     STUDENT ||--o{ ENROLMENT : applies
     STAFF }|--|| OFFICES : assigned_to
     STAFF ||--o{ INVOICE : issues
