@@ -41,6 +41,7 @@ erDiagram
         string lName
         string phoneNum
         string email
+        string gender
         date DOB
         string nation
         int addrID FK
@@ -103,7 +104,7 @@ erDiagram
     }
     LEASE_AGREEMENT {
         int leaseID PK
-        string duration
+        durationMonths duration
         date startDate
         date endDate
         string parkingType
